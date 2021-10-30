@@ -2,7 +2,7 @@ body{
     font-size: 70%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-    background: black url(assets/backgroundTop.jpg) no-repeat fixed top center;
+    background: rgb(19, 141, 135) url(assets/backgroundTop.jpg) no-repeat fixed top center;
     padding: 0;
     margin: 0;
     -webkit-background-size: 100%;
@@ -45,7 +45,7 @@ a:hover{
 .contentWrapper{
     margin: 0 auto;
     max-width: 1170px;
-    padding: 0 4em;
+    padding: 0 2em;
 }
 h3{
     color: crimson;
@@ -80,13 +80,14 @@ nav{
 }
 nav ul {
     margin: 0;
-    padding: 9;
+    padding: 5;
     list-style: none;
     color: rgb(1, 1, 19);
 }
 nav li{
     display: inline-block;
     margin: 0;
+    pad: 0;
     float: right;
 }
 /*shop bar*/
